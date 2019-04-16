@@ -12,6 +12,11 @@ import android.widget.LinearLayout;
 
 import com.gyf.barlibrary.ImmersionBar;
 
+/**
+ * 这个Activity在布局中添加android:animateLayoutChanges="true"
+ * 通过设置LayoutTransition
+ * 使头部通过平移动画隐藏，然后下面内容区自然会顶上去，使用简单，但是内容区其实没有平移
+ */
 public class Main4Activity extends AppCompatActivity {
 
     private GestureDetector mDetector;

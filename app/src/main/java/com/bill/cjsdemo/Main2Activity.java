@@ -1,7 +1,6 @@
 package com.bill.cjsdemo;
 
 import android.animation.ObjectAnimator;
-import android.animation.ValueAnimator;
 import android.os.Bundle;
 import android.support.annotation.ColorRes;
 import android.support.v4.app.FragmentTransaction;
@@ -16,6 +15,9 @@ import android.widget.TextView;
 
 import com.gyf.barlibrary.ImmersionBar;
 
+/**
+ * 让内容在下面bottom下，平移整个页面都上移
+ */
 public class Main2Activity extends AppCompatActivity implements View.OnClickListener {
 
     private BaseFragment[] fragments = new BaseFragment[4];
